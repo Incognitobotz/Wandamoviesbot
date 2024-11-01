@@ -43,11 +43,7 @@ Total - <code>{}</code>"""
 
     NOT_FILE_TXT = """👋 Hello {},
 
-I can't find the <b>{}</b> in my database! 🥲
-
-👉 Google Search and check your spelling is correct.
-👉 Please read the Instructions to get better results.
-👉 Or not been released yet."""
+➣ 𝐓𝐡𝐢𝐬 𝐌𝐨𝐯𝐢𝐞 𝐍𝐨𝐭 𝐅𝐨𝐮𝐧𝐝\n\n➣ 𝐂𝐡𝐞𝐜𝐤 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐎𝐧 𝐆𝐨𝐨𝐠𝐥𝐞 𝐓𝐡𝐞𝐧 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧\n\n➣ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐅𝐨𝐫 𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ☟\n\n➣ ✔️@JpOfficialSupport🇮🇳"""
     
     EARN_TXT = """<b>ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ꜰʀᴏᴍ ᴛʜɪs ʙᴏᴛ
 
