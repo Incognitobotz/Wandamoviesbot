@@ -8,7 +8,7 @@ class script(object):
 ★ Language: <a href=https://www.python.org>Python</a>
 ★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
 
-    MY_OWNER_TXT = """★ Name: RK Bots
+    MY_OWNER_TXT = """★ Name: jp movies
 ★ Username: @BarkesyaXboy
 ★ Update Channel : @jp_movies_update"""
 
