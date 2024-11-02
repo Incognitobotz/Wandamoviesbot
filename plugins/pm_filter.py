@@ -372,21 +372,11 @@ async def advantage_spoll_choker(bot, query):
         await auto_filter(bot, query, k)
     else:
         await bot.send_message(LOG_CHANNEL, script.NO_RESULT_TXT.format(query.message.chat.title, query.message.chat.id, query.from_user.mention, search))
-        k = await query.message.edit(f"👋 Hello {query.from_user.mention},\n\n➣ 𝐓𝐡𝐢𝐬 𝐌𝐨𝐯𝐢𝐞 𝐍𝐨𝐭 𝐅𝐨𝐮𝐧𝐝\n\n➣ 𝐂𝐡𝐞𝐜𝐤 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐎𝐧 𝐆𝐨𝐨𝐠𝐥𝐞 𝐓𝐡𝐞𝐧 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧\n\n➣ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐅𝐨𝐫 𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ☟")
-    btn = [[
-            InlineKeyboardButton("⚠️ Instructions ⚠️", callback_data='instructions')
-        ],[
-            InlineKeyboardButton("🔎 Request here 🔍", url=f"https://t.me/JpOfficialSupport")
-        ]]
-    
-        try:
-        movies = await get_poster(search, bulk=True)
-    except:
-        n = await message.reply_photo(photo=random.choice(PICS), caption=script.NOT_FILE_TXT.format(message.from_user.mention, search), reply_markup=InlineKeyboardMarkup(btn))
+        k = await query.message.edit(f"👋 Hello {query.from_user.mention},\n\n➣ 𝐓𝐡𝐢𝐬 𝐌𝐨𝐯𝐢𝐞 𝐍𝐨𝐭 𝐅𝐨𝐮𝐧𝐝\n\n➣ 𝐂𝐡𝐞𝐜𝐤 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐎𝐧 𝐆𝐨𝐨𝐠𝐥𝐞 𝐓𝐡𝐞𝐧 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧\n\n➣ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐅𝐨𝐫 𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ☟\n\n✔️@JpOfficialSupport<b>")
         await asyncio.sleep(60)
-        await n.delete()
+        await k.delete()
         try:
-            await message.delete()
+            await query.message.reply_to_message.delete()
         except:
             pass
             
