@@ -378,11 +378,14 @@ async def advantage_spoll_choker(bot, query):
         ],[
             InlineKeyboardButton("🔎 Request here 🔍", url=f"https://t.me/JpOfficialSupport")
         ]]
-        reply_markup = InlineKeyboardMarkup(btn)
-        await asyncio.sleep(60)
-        await k.delete()
         try:
-            await query.message.reply_to_message.delete()
+        movies = await get_poster(search, bulk=True)
+    except:
+        n = await message.reply_photo(photo=random.choice(PICS), caption=script.NOT_FILE_TXT.format(message.from_user.mention, search), reply_markup=InlineKeyboardMarkup(btn))
+        await asyncio.sleep(60)
+        await n.delete()
+        try:
+            await message.delete()
         except:
             pass
             
