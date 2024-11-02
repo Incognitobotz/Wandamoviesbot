@@ -378,6 +378,7 @@ async def advantage_spoll_choker(bot, query):
         ],[
             InlineKeyboardButton("🔎 Request here 🔍", url=f"https://t.me/JpOfficialSupport")
         ]]
+    
         try:
         movies = await get_poster(search, bulk=True)
     except:
