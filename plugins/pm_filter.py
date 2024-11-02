@@ -377,7 +377,8 @@ async def advantage_spoll_choker(bot, query):
             InlineKeyboardButton("⚠️ Instructions ⚠️", callback_data='instructions')
         ],[
             InlineKeyboardButton("🔎 Request here 🔍", url=f"https://t.me/JpOfficialSupport")
-        ]] 
+        ]]
+        reply_markup = InlineKeyboardMarkup(btn)
         await asyncio.sleep(60)
         await k.delete()
         try:
