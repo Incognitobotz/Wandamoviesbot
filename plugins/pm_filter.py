@@ -68,7 +68,7 @@ async def give_filter(client, message):
             files, offset, total = await get_search_results(message.text)
             if files:
                 btn = [[
-                    InlineKeyboardButton("Here", url=GRP_LNK)
+                    InlineKeyboardButton("Here", url=FILMS_LINK)
                 ]]
                 await message.reply_text(f'Total {total} results found in this group', reply_markup=InlineKeyboardMarkup(btn))
             return
@@ -132,7 +132,7 @@ async def pm_search(client, message):
         files, n_offset, total = await get_search_results(message.text)
         if int(total) != 0:
             btn = [[
-                InlineKeyboardButton("Here", url=GRP_LNK)
+                InlineKeyboardButton("Here", url=FILMS_LINK)
             ]]
             await message.reply_text(f'Total {total} results found in this group', reply_markup=InlineKeyboardMarkup(btn))
 
@@ -555,8 +555,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "my_about":
         buttons = [[
-            InlineKeyboardButton('📊 sᴛᴀᴛᴜs', callback_data='stats'),
-            InlineKeyboardButton('🔋 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', callback_data='source')
+            InlineKeyboardButton('• ᴄʜᴀɴɴᴇʟ •', url=UPDATES_LINK),
+            InlineKeyboardButton('• Group •', url=FILMS_LINK)
         ],[
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='start')
         ]]
