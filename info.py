@@ -77,8 +77,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/JpOfficialSupport')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/+a0fP-zRSvwBlMzVl')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/+WnJamUqcp_UwNDM1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/jp_movies_update')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+WnJamUqcp_UwNDM1')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/request_group_download")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/request_group_download")
 
