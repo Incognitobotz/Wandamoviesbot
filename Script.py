@@ -83,16 +83,14 @@ Total - <code>{}</code>"""
 🗣 Requested by: {message.from_user.mention}
 ©️ Powered by: <b>{message.chat.title}</b>"""
 
-    FILE_CAPTION = """<b>📂: {file_name}</b>
+    FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}</b>
 
 ╔════ ღ ᴊᴘ ᴄᴏᴍᴍᴜɴɪᴛʏ ღ ════╗
   ◆ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 @JpMoviesUpdates
   ◆ 𝐌𝐨𝐯𝐢𝐞𝐬 @JpMovies_Official
   ◆ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 @JpOfficialSupport
   ◆ 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 @JpMoviesPremium
-╚════ ღ ᴊᴘ ᴄᴏᴍᴍᴜɴɪᴛʏ ღ ════╝
-
-<b>𝐓𝐡𝐚𝐧𝐤𝐬 🌹❤️</b>"""
+╚════ ღ ᴊᴘ ᴄᴏᴍᴍᴜɴɪᴛʏ ღ ════╝"""
     WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! 💞"""
 
     HELP_TXT = """<b>Note - <spoiler>Try each command without any argument to see more details 😹</spoiler></b>"""
