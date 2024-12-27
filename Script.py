@@ -91,6 +91,7 @@ Total - <code>{}</code>"""
   ◆ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 @JpOfficialSupport
   ◆ 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 @JpMoviesPremium
 ╚════ ღ ᴊᴘ ᴄᴏᴍᴍᴜɴɪᴛʏ ღ ════╝"""
+    
     WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! 💞"""
 
     HELP_TXT = """<b>Note - <spoiler>Try each command without any argument to see more details 😹</spoiler></b>"""
