@@ -186,7 +186,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton("📍 ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ 📍", url=settings['tutorial'])
             ]]
-            await message.reply(f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>Your file is ready, Please get using this link. 👍</i></b>", reply_markup=InlineKeyboardMarkup(btn), protect_content=True)
+            await message.reply(f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {files.link}\n\n<i>Your file is ready, Please get using this link. 👍</i></b>", reply_markup=InlineKeyboardMarkup(btn), protect_content=True)
             return
     else:
         pass
