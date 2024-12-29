@@ -149,7 +149,7 @@ async def start(client, message):
             )   
             if settings.get('is_stream', IS_STREAM):
                 btn = [[
-                    InlineKeyboardButton("✛ ᴅᴏᴡɴʟᴏᴀᴅ ᴅɪʀᴇᴄᴛ ꜰɪʟᴇꜱ ✛", url=UPDATES_LINK)
+                    InlineKeyboardButton("📂 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐃𝐢𝐫𝐞𝐜𝐭 𝐅𝐢𝐥𝐞𝐬 📂", url=UPDATES_LINK)
                 ],[
                     InlineKeyboardButton('⚡️ ᴜᴘᴅᴀᴛᴇs ⚡️', url=UPDATES_LINK),
                     InlineKeyboardButton('💡 ꜱᴜᴘᴘᴏʀᴛ 💡', url=SUPPORT_LINK)
@@ -199,7 +199,7 @@ async def start(client, message):
     )
     if settings.get('is_stream', IS_STREAM):
         btn = [[
-            InlineKeyboardButton("✛ ᴅᴏᴡɴʟᴏᴀᴅ ᴅɪʀᴇᴄᴛ ꜰɪʟᴇꜱ ✛", url=UPDATES_LINK)
+            InlineKeyboardButton("📂 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐃𝐢𝐫𝐞𝐜𝐭 𝐅𝐢𝐥𝐞𝐬 📂", url=UPDATES_LINK)
         ],[
             InlineKeyboardButton('⚡️ ᴜᴘᴅᴀᴛᴇs ⚡️', url=UPDATES_LINK),
             InlineKeyboardButton('💡 ꜱᴜᴘᴘᴏʀᴛ 💡', url=SUPPORT_LINK)
