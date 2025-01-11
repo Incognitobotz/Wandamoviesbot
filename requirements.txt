@@ -3,7 +3,7 @@ tgcrypto
 motor
 marshmallow
 umongo
-pymongo
+pymongo==4.8.0
 pytz
 git+https://github.com/Joelkb/cinemagoer
 shortzy
